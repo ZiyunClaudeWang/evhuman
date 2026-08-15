@@ -1,0 +1,16 @@
+torch>=1.12.0
+torchvision>=0.13.0
+pytorch-lightning>=1.9.0
+numpy
+scipy
+opencv-python
+tensorboardX
+tqdm
+joblib
+smplx
+einops
+trimesh
+pyvista
+h5py
+nvdiffrast
+human_body_prior

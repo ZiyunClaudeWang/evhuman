@@ -1,0 +1,4 @@
+fit:
+  data:
+    data_dir: data/mmhpsd
+    batch_size: 4

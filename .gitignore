@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific
+/data/
+/ckpts/
+/checkpoints/
+/NeMF/data/
+/NeMF/outputs/
+/lightning_logs/
+/results/
+/outputs/
+/tmp/
+/debug/
+*.zip
+*.pkl

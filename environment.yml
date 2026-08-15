@@ -1,0 +1,28 @@
+name: evhuman
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=1.12
+  - torchvision
+  - cudatoolkit=11.8
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - pytorch-lightning>=1.9
+    - opencv-python
+    - tensorboardX
+    - tqdm
+    - joblib
+    - smplx
+    - einops
+    - trimesh
+    - pyvista
+    - h5py
+    - plyfile
+    - transforms3d
+    - human_body_prior
+    - nvdiffrast
