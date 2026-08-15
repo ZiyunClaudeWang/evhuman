@@ -1,0 +1,23 @@
+torch>=1.12.0
+torchvision>=0.13.0
+pytorch-lightning>=1.9.0
+# chumpy (SMPL model loading) breaks on numpy >= 1.24 (np.bool removal)
+numpy>=1.23,<1.24
+scipy
+# contrib build required: the BEAHM gallery uses cv2.omnidir
+opencv-contrib-python>=4.5
+tensorboardX
+tqdm
+joblib
+smplx
+einops
+trimesh
+pyvista
+h5py
+human_body_prior
+pyyaml
+matplotlib
+plyfile<1.1
+transforms3d
+# installed separately (see README Install): chumpy and nvdiffrast both
+# require --no-build-isolation, and nvdiffrast needs the CUDA toolkit
